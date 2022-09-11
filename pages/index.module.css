@@ -1,0 +1,20 @@
+.banner {
+  background-image: url("../public/homebanner.jpg");
+  height: 15rem;
+  background-position: bottom;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.maintext {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 3rem;
+  padding: 2rem 0rem 0rem 2rem;
+  margin: 0px;
+}
+
+.subtext {
+  display: inline;
+  padding: 0rem 0rem 0rem 3rem;
+}
