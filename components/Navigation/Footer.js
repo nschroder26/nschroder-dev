@@ -8,8 +8,7 @@ const Footer = () => {
       <div className={classes.copyrighttext}>&#169; Nick Schroder</div>
       <div className={classes.iconlist}>
         <a
-          href="www.linkedin.com/in/nicholas-schroder-248082b9"
-          passHref
+          href="https://www.linkedin.com/in/nicholas-schroder-248082b9"
           target="_blank"
         >
           <img
@@ -20,7 +19,7 @@ const Footer = () => {
             alt="LinkedIn logo"
           />
         </a>
-        <a href="https://github.com/nschroder26" passHref target="_blank">
+        <a href="https://github.com/nschroder26" target="_blank">
           <img
             src="/GitHub.png"
             width="25"
