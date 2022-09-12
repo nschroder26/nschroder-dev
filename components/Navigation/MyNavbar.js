@@ -7,22 +7,36 @@ import classes from "./MyNavbar.module.css";
 
 const MyNavbar = () => {
   return (
-    <Navbar bg="dark" variant="dark">
+    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
         <Link href="/" passHref>
-          <Navbar.Brand href="/">Navbar</Navbar.Brand>
+          <Navbar.Brand href="/">
+            <img
+              src="/NSLogoTransparent.png"
+              width="120"
+              height="50"
+              className="d-inline-block align-top"
+              alt="Nick Schroder logo"
+            />
+          </Navbar.Brand>
         </Link>
-        <Nav className="me-auto">
-          <Link href="/ruby" passHref>
-            <Nav.Link>Ruby</Nav.Link>
-          </Link>
-          <Link href="/react" passHref>
-            <Nav.Link>React</Nav.Link>
-          </Link>
-          <Link href="/about" passHref>
-            <Nav.Link>About</Nav.Link>
-          </Link>
-        </Nav>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse
+          id="responsive-navbar-nav"
+          className="justify-content-end"
+        >
+          <Nav>
+            <Link href="/ruby" passHref>
+              <Nav.Link className={classes.navlink}>Ruby</Nav.Link>
+            </Link>
+            <Link href="/react" passHref>
+              <Nav.Link className={classes.navlink}>React</Nav.Link>
+            </Link>
+            <Link href="/about" passHref>
+              <Nav.Link className={classes.navlink}>About</Nav.Link>
+            </Link>
+          </Nav>
+        </Navbar.Collapse>
       </Container>
     </Navbar>
   );
