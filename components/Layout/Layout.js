@@ -1,10 +1,10 @@
-import Navbar from "../Navigation/Navbar";
+import MyNavbar from "../Navigation/MyNavbar";
 import classes from "./Layout.module.css";
 
 function Layout(props) {
   return (
     <div>
-      <Navbar />
+      <MyNavbar />
       <main className={classes.main}>{props.children}</main>
     </div>
   );

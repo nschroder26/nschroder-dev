@@ -1,7 +1,7 @@
 .banner {
   background-image: url("../public/homebanner.jpg");
   height: 15rem;
-  background-position: bottom;
+  background-position: top;
   background-size: 100%;
   background-repeat: no-repeat;
 }
