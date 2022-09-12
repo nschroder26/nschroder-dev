@@ -27,13 +27,19 @@ const MyNavbar = () => {
         >
           <Nav>
             <Link href="/ruby" passHref>
-              <Nav.Link className={classes.navlink}>Ruby</Nav.Link>
+              <Nav.Link className={classes.navlink} active={false}>
+                Ruby
+              </Nav.Link>
             </Link>
             <Link href="/react" passHref>
-              <Nav.Link className={classes.navlink}>React</Nav.Link>
+              <Nav.Link className={classes.navlink} active={false}>
+                React
+              </Nav.Link>
             </Link>
             <Link href="/about" passHref>
-              <Nav.Link className={classes.navlink}>About</Nav.Link>
+              <Nav.Link className={classes.navlink} active={false}>
+                About
+              </Nav.Link>
             </Link>
           </Nav>
         </Navbar.Collapse>
