@@ -1,0 +1,22 @@
+.footerbox {
+  margin: 3vw 5vw;
+  padding: 1vw;
+  border-top: 0.1rem white solid;
+}
+
+.iconlist {
+  float: right;
+}
+
+.icons {
+  margin: 0 0.5vw;
+}
+
+.copyrighttext {
+  color: #ffffff66;
+  display: inline-block;
+}
+
+.icons:hover {
+  cursor: pointer;
+}

@@ -18,3 +18,8 @@
   display: inline;
   padding: 0rem 0rem 0rem 3rem;
 }
+
+.introtext {
+  margin: 1vw 3vw;
+  font-size: large;
+}
