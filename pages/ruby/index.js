@@ -9,12 +9,14 @@ const PROJECT_LIST = [
     title: "Learn to Program - Chris Pine",
     image: "/ChrisPineRoR.png",
     text: "This was the initial book that I read and worked through to set the foundation of the basics of programming. I really enjoyed this course and have gone back to it several times to review material. It did a great job of teaching a concept and then pushing you to apply those concepts in various different ways. The material started off at a very low level and did a great job of scaling and building on what you learned as you progressed.",
+    git: "https://github.com/nschroder26/Chris-Pine-Ruby",
   },
   {
     id: "p2",
     title: "Ruby on Rails - Michael Hartl",
     image: "/MichaelHartlRoR.png",
     text: "The second book that I worked through was a much more in depth guide to RoR. This book started off with 2 smaller projects and then moved on to one large one. This larger project was a mock-up of Twitter which we built from the ground up. It handled everything from user login and authentication, to uploading, viewing, and deleting user posts. There were so many concepts and everyday applications covered. This is also a resource that I have gone back through since completing. I referenced this book quite a bit when building the artwork site and was able to model some aspects the same way.",
+    git: "https://github.com/nschroder26/sample_app",
   },
   {
     id: "p3",
