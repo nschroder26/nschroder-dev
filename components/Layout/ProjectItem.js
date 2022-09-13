@@ -18,16 +18,18 @@ const ProjectItem = (props) => {
           />
           <Card.Text className={classes.projecttext}>{props.text}</Card.Text>
         </div>
-        {hasRepo && (
-          <a href={props.git} target="_blank" className={classes.link}>
-            GitHub Repo
-          </a>
-        )}
-        {hasWebsite && (
-          <a href={props.website} target="_blank" className={classes.link}>
-            Live Website
-          </a>
-        )}
+        <div className={classes.linkbox}>
+          {hasRepo && (
+            <a href={props.git} target="_blank" className={classes.link}>
+              GitHub Repo
+            </a>
+          )}
+          {hasWebsite && (
+            <a href={props.website} target="_blank" className={classes.link}>
+              Live Website
+            </a>
+          )}
+        </div>
       </Card.Body>
     </Card>
   );

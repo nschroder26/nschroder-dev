@@ -17,8 +17,12 @@
   margin-left: 4vw;
 }
 
+.linkbox {
+  margin: 1vw 0;
+}
+
 .link {
   text-decoration: underline;
   color: deepskyblue;
-  margin-right: 1vw;
+  margin: 2vw 1vw 0 0;
 }
