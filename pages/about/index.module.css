@@ -1,0 +1,18 @@
+.abouttitle {
+  margin: 3vw 0 0 3vw;
+}
+
+.aboutbody {
+  margin: 1vw 3vw;
+  display: flex;
+}
+
+.aboutpic {
+  max-width: 25vw;
+  object-fit: contain;
+  object-position: top;
+}
+
+.abouttext {
+  margin-left: 2vw;
+}
