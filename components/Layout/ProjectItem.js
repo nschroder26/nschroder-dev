@@ -20,12 +20,22 @@ const ProjectItem = (props) => {
         </div>
         <div className={classes.linkbox}>
           {hasRepo && (
-            <a href={props.git} target="_blank" className={classes.link}>
+            <a
+              href={props.git}
+              target="_blank"
+              rel="noreferrer"
+              className={classes.link}
+            >
               GitHub Repo
             </a>
           )}
           {hasWebsite && (
-            <a href={props.website} target="_blank" className={classes.link}>
+            <a
+              href={props.website}
+              target="_blank"
+              rel="noreferrer"
+              className={classes.link}
+            >
               Website
             </a>
           )}

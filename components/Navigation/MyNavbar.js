@@ -2,6 +2,7 @@ import Link from "next/link";
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
+import Image from "next/image";
 
 import classes from "./MyNavbar.module.css";
 
@@ -11,7 +12,7 @@ const MyNavbar = () => {
       <Container>
         <Link href="/" passHref>
           <Navbar.Brand href="/">
-            <img
+            <Image
               src="/NSLogoTransparent.png"
               width="120"
               height="50"

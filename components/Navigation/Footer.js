@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Image from "next/image";
 
 import classes from "./Footer.module.css";
 
@@ -9,24 +9,24 @@ const Footer = () => {
       <div className={classes.iconlist}>
         <a
           href="https://www.linkedin.com/in/nicholas-schroder-248082b9"
+          rel="noreferrer"
           target="_blank"
+          className={classes.icons}
         >
-          <img
+          <Image
             src="/LinkedIn.png"
             width="25"
             height="25"
-            className={classes.icons}
             alt="LinkedIn logo"
           />
         </a>
-        <a href="https://github.com/nschroder26" target="_blank">
-          <img
-            src="/GitHub.png"
-            width="25"
-            height="25"
-            className={classes.icons}
-            alt="LinkedIn logo"
-          />
+        <a
+          href="https://github.com/nschroder26"
+          rel="noreferrer"
+          target="_blank"
+          className={classes.icons}
+        >
+          <Image src="/GitHub.png" width="25" height="25" alt="LinkedIn logo" />
         </a>
       </div>
     </div>
