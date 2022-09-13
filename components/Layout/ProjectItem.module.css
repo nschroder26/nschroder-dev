@@ -16,3 +16,9 @@
 .projecttext {
   margin-left: 4vw;
 }
+
+.link {
+  text-decoration: underline;
+  color: deepskyblue;
+  margin-right: 1vw;
+}

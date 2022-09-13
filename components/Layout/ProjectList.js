@@ -8,6 +8,8 @@ const ProjectList = (props) => {
       title={project.title}
       text={project.text}
       image={project.image}
+      git={project.git}
+      website={project.website}
     />
   ));
   return <ul className={classes.projectlist}>{currentProjects}</ul>;
