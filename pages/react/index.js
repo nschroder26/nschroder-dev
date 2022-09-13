@@ -16,7 +16,7 @@ const PROJECT_LIST = [
     id: "p2",
     title: "PhotoApp",
     image: "/PhotoAppOverview.png",
-    text: "This is currently the project I am working on. The idea behind this is to have something that my family could use to share and also view photos that we have taken. My wife and I just had our first baby and we are constantly send pictures back and forth to all of our family. At the time of writing this I’ve setup a login through Firebase, and have setup state to handle some very basic rendering if the user is logged in. In the end the goal is to allow a user to login and view any recent photos that have been added. As well as to be able to search by a variety of different tags, and to save or favorite different photos.",
+    text: "This is currently the project I am working on. The idea behind this is to have something that my family could use to share and also view photos that we have taken. My wife and I just had our first baby and we are constantly sending pictures back and forth to all of our family. At the time of writing this I’ve setup a login through Firebase, and have setup state to handle some very basic rendering if the user is logged in. In the end, the goal is to allow a user to login and view any recent photos that have been added. As well as to be able to search by a variety of different tags, and to save or favorite different photos.",
     git: "https://github.com/nschroder26/photoApp",
   },
   {
