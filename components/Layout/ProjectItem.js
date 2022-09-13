@@ -26,7 +26,7 @@ const ProjectItem = (props) => {
           )}
           {hasWebsite && (
             <a href={props.website} target="_blank" className={classes.link}>
-              Live Website
+              Website
             </a>
           )}
         </div>
