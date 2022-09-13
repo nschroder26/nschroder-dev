@@ -1,17 +1,14 @@
 import { Fragment } from "react";
 import classes from "./index.module.css";
 import Image from "next/image";
+import mainpic from "../../public/AboutMe.JPG";
 
 const AboutPage = () => {
   return (
     <Fragment>
       <h1 className={classes.abouttitle}>About Me</h1>
       <div className={classes.aboutbody}>
-        <Image
-          src="./AboutMe.JPG"
-          alt="about picture"
-          className={classes.aboutpic}
-        />
+        <Image src={mainpic} alt="about picture" className={classes.aboutpic} />
         <div className={classes.abouttext}>
           I’m sure you’ve figured this out but my name is Nick, and I am a
           self-taught developer! In 2015 I graduated with a B.S. in Mathematics,
