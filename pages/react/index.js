@@ -21,7 +21,7 @@ const ReactPage = () => {
   }, [sendRequest, language]);
 
   if (status === "pending") {
-    return <div className="centered">Loading.....</div>;
+    return <div className={classes.loadingtext}>Loading.....</div>;
   }
 
   if (error) {
